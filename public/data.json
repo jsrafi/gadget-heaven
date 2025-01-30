@@ -1,0 +1,186 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "https://i.ibb.co.com/tMNfHYW0/iphone14.jpg",
+      "category": "Smartphone",
+      "price": 1099,
+      "description": "iPhone 14 Pro Max with Dynamic Island and A16 Bionic chip.",
+      "Specification": ["6.7-inch Super Retina XDR", "A16 Bionic Chip", "48MP Pro Camera", "iOS 16"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/k6BSzNjN/Mac-Book-Air-M2.jpg",
+      "category": "Laptop",
+      "price": 999,
+      "description": "Apple MacBook Air with M2 chip, 13.6-inch Retina display, and 18-hour battery life.",
+      "Specification": ["13.6-inch Retina Display", "M2 Chip", "8GB RAM", "256GB SSD"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 3,
+      "product_title": "Sony WH-1000XM5",
+      "product_image": "https://i.ibb.co.com/27CGWBXv/sonywh.jpg",
+      "category": "Headphones",
+      "price": 349,
+      "description": "Sony WH-1000XM5 Noise Cancelling Wireless Headphones with superb sound quality.",
+      "Specification": ["Noise Cancelling", "30-hour battery life", "Bluetooth 5.2", "Touch Controls"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 4,
+      "product_title": "Fitbit Charge 5",
+      "product_image": "https://i.ibb.co.com/Xf8DMD77/Fitbit-Charge.jpg",
+      "category": "Smartwatch",
+      "price": 179,
+      "description": "Fitbit Charge 5 with advanced health tracking and built-in GPS.",
+      "Specification": ["AMOLED Display", "Heart Rate Monitoring", "Built-in GPS", "Sleep Tracking"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 5,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/Y4nS6g0k/HP-Spectre.jpg",
+      "category": "Laptop",
+      "price": 1499,
+      "description": "HP Spectre x360 14 with OLED display and Intel Core i7 processor.",
+      "Specification": ["13.5-inch OLED", "Intel Core i7", "16GB RAM", "512GB SSD"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 6,
+      "product_title": "Google Pixel 7 Pro",
+      "product_image": "https://i.ibb.co.com/H9WYcXc/Pixel-7.jpg",
+      "category": "Smartphone",
+      "price": 899,
+      "description": "Google Pixel 7 Pro with Google Tensor G2 and pro-level camera.",
+      "Specification": ["6.7-inch OLED", "Google Tensor G2", "50MP main camera", "Android 13"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 7,
+      "product_title": "MacBook Pro 16 M2",
+      "product_image": "https://i.ibb.co.com/NgrqPZXh/Mac-Book-Pro-M2.jpg",
+      "category": "Laptop",
+      "price": 2499,
+      "description": "Apple MacBook Pro 16-inch with M2 Max chip and Liquid Retina XDR display.",
+      "Specification": ["16-inch Liquid Retina XDR", "M2 Max Chip", "32GB RAM", "1TB SSD"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 8,
+      "product_title": "Bose QuietComfort 45",
+      "product_image": "https://i.ibb.co.com/mVv21Gjk/Bose.jpg",
+      "category": "Headphones",
+      "price": 329,
+      "description": "Bose QuietComfort 45 Noise-Canceling Wireless Headphones with premium sound.",
+      "Specification": ["Adjustable noise cancellation", "Up to 24-hour battery", "Bluetooth 5.1","Advanced Adaptive ANC (Active Noise Cancellation)"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 9,
+      "product_title": "Samsung Galaxy Watch 6",
+      "product_image": "https://i.ibb.co.com/0jTn4c1j/Galaxy-Watch6.jpg",
+      "category": "Smartwatch",
+      "price": 349,
+      "description": "Samsung Galaxy Watch 6 with fitness tracking and LTE connectivity.",
+      "Specification": ["1.5-inch AMOLED Display", "Heart Rate Monitor", "5ATM Water Resistance","Blood Pressure & SpO2 (Oxygen Level) Tracking"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 10,
+      "product_title": "ASUS ROG Strix G16",
+      "product_image": "https://i.ibb.co.com/WvY5d2wM/asus-rog.jpg",
+      "category": "Laptop",
+      "price": 1799,
+      "description": "ASUS ROG Strix G16 gaming laptop with Intel i9 and RTX 4070 GPU.",
+      "Specification": ["16-inch 165Hz Display", "Intel Core i9-13980HX", "RTX 4070", "1TB SSD"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 11,
+      "product_title": "Nothing Phone 2",
+      "product_image": "https://i.ibb.co.com/pj5NpJbx/NOTHING.jpg",
+      "category": "Smartphone",
+      "price": 699,
+      "description": "Nothing Phone 2 with transparent design and Snapdragon 8+ Gen 1.",
+      "Specification": ["6.7-inch AMOLED", "Snapdragon 8+ Gen 1", "50MP Camera", "Glyph Interface"],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": 12,
+      "product_title": "Sony WF-1000XM5",
+      "product_image": "https://i.ibb.co.com/1ftP0pXh/Sony-WF.jpg",
+      "category": "Headphones",
+      "price": 299,
+      "description": "Sony WF-1000XM5 Wireless Earbuds with superior noise cancellation.",
+      "Specification": ["Noise Cancellation", "High-Resolution Audio", "8-hour battery","Advanced Adaptive ANC (Active Noise Cancellation)"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 13,
+      "product_title": "Garmin Forerunner 955",
+      "product_image": "https://i.ibb.co.com/qhcwRpz/garmin.webp",
+      "category": "Smartwatch",
+      "price": 499,
+      "description": "Garmin Forerunner 955 GPS smartwatch for professional athletes.",
+      "Specification": ["Solar Charging", "Pulse Ox Sensor", "Advanced Training Metrics","Blood Pressure & SpO2 (Oxygen Level) Tracking"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 14,
+      "product_title": "Lenovo Legion 5 Pro",
+      "product_image": "https://i.ibb.co.com/sv9RtgpL/Lenovo-Legion.jpg",
+      "category": "Laptop",
+      "price": 1599,
+      "description": "Lenovo Legion 5 Pro gaming laptop with AMD Ryzen 9 and RTX 4060.",
+      "Specification": ["16-inch 165Hz QHD", "AMD Ryzen 9 7945HX", "RTX 4060", "1TB SSD"],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "product_id": 15,
+      "product_title": "Microsoft Surface Laptop",
+      "product_image": "https://i.ibb.co.com/Ngpb0BPn/Microsoft-Surface.jpg",
+      "category": "Laptop",
+      "price": 1299,
+      "description": "Microsoft Surface Laptop 5 with Intel Evo and 3:2 touchscreen.",
+      "Specification": ["13.5-inch PixelSense", "Intel Core i7-1265U", "512GB SSD", "Windows 11"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+        "product_id": 16,
+        "product_title": "OnePlus 11 Pro",
+        "product_image": "https://i.ibb.co.com/b5Bbwgr1/One-Plus-11-1-7783.jpg",
+        "category": "Smartphone",
+        "price": 799,
+        "description": "OnePlus 11 Pro delivers flagship performance with Snapdragon 8 Gen 2, a 120Hz AMOLED display, and Hasselblad-tuned cameras.",
+        "Specification": [
+          "Snapdragon 8 Gen 2",
+          "6.7-inch QHD+ AMOLED, 120Hz",
+          "12GB RAM, 256GB Storage",
+          "5000mAh battery, 100W fast charging",
+          "Hasselblad triple-camera system"
+        ],
+        "availability": true,
+        "rating": 4.6
+      }
+      
+  ]
+  
