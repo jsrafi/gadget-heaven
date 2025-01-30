@@ -3,6 +3,7 @@ import rate from "../../assets/rate.png"
 import ratings from "../../assets/starts.png"
 import cart from "../../assets/cart2.png"
 import love from "../../assets/love.png"
+import { addToStoredList } from "../../Utilities/Utilities";
 
 
 const ItemDetail = () => {
@@ -10,7 +11,13 @@ const ItemDetail = () => {
     const id = parseInt(itemId)
     const data = useLoaderData()
     const product = data.find(item => item.product_id === id);
-    const { product_title, product_image, price, availability, description, Specification, rating } = product;
+    const {product_id, product_title, product_image, price, availability, description, Specification, rating } = product;
+
+
+    const handleStoredList =(id)=>
+    {
+        addToStoredList(id)
+    }
     return (
 
         <div className="relative mb-96">
@@ -19,7 +26,7 @@ const ItemDetail = () => {
                 <p className="text-white">Explore the latest gadgets that will take your experience to the next level. From smart devices to <br /> the coolest accessories, we have it all!</p>
             </div>
 
-            <div className=" absolute md:top-[50px] md:left-1/2 md:transform md:-translate-x-1/2 w-full max-w-[1100px] mx-auto border border-white shadow-2xl rounded-2xl bg-white flex gap-2 my-10 mb-40">
+            <div className=" absolute md:top-[110px] md:left-1/2 md:transform md:-translate-x-1/2 w-full max-w-[1100px] mx-auto border border-white shadow-2xl rounded-2xl bg-white flex gap-2 my-10 mb-40">
                 <div className=" w-[50%] p-5 ">
                     <img className="w-full border border-white shadow-2xl rounded-2xl" src={product_image} alt="" />
                 </div>
@@ -48,7 +55,7 @@ const ItemDetail = () => {
                         <p className=" font-semibold w-7 h-7  rounded-full bg-gray-300 text-center flex justify-center items-center">{rating}</p>
                     </div>
                     <div className="flex gap-4 items-center">
-                        <button className="flex gap-2 bg-purple-500 text-white btn rounded-3xl">Add to Cart <img src={cart} alt="" /> </button>
+                        <button onClick={()=> handleStoredList(product_id)} className="flex gap-2 bg-purple-500 text-white btn rounded-3xl">Add to Cart <img src={cart} alt="" /> </button>
                         <button><img src={love} alt="" /></button>
                     </div>
                 </div>

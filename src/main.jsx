@@ -9,6 +9,9 @@ import {
 import Root from './Components/Root/Root.jsx';
 import Home from './Components/Home/Home.jsx';
 import ItemDetail from './Components/ItemDetail/ItemDetail.jsx';
+import Dashboard from './Components/Dashboard/Dashboard.jsx';
+import Cart from './Components/Cart/Cart.jsx';
+import WishList from './Components/WishList/WishList.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,22 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
+        children: [
+          {
+            path: "cart",
+            element: <Cart></Cart>,
+            loader: ()=> fetch('/data.json')
+          },
+          {
+            path: "wish",
+            element: <WishList></WishList>
+          }
+        ]
+
       },
       {
         path: "items/:itemId",

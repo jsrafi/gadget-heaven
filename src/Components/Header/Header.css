@@ -1,0 +1,6 @@
+nav a.active
+{
+    color: purple;
+    font-weight: bold;
+    background-color: rgba(112, 128, 144, 0);
+}
