@@ -9,6 +9,7 @@ const Header = () => {
      <NavLink to="/">Home</NavLink>
      <NavLink to="/statistics">Statistics</NavLink>
      <NavLink to="/dashboard">Dashboard</NavLink>
+     <NavLink to="/review">Reviews</NavLink>
     </nav>
 
     const location = useLocation();

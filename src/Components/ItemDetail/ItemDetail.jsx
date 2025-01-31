@@ -4,6 +4,8 @@ import ratings from "../../assets/starts.png"
 import cart from "../../assets/cart2.png"
 import love from "../../assets/love.png"
 import { addToStoredList } from "../../Utilities/Utilities";
+import { addToWishList } from "../../Utilities/wish";
+import { useState } from "react";
 
 
 const ItemDetail = () => {
@@ -17,6 +19,13 @@ const ItemDetail = () => {
     const handleStoredList =(id)=>
     {
         addToStoredList(id)
+    }
+
+    const [isDisabled,setIsDisabled] = useState(true)
+    const handleWishList =(id)=>
+    {
+        addToWishList(id) 
+        setIsDisabled(false)
     }
     return (
 
@@ -56,7 +65,7 @@ const ItemDetail = () => {
                     </div>
                     <div className="flex gap-4 items-center">
                         <button onClick={()=> handleStoredList(product_id)} className="flex gap-2 bg-purple-500 text-white btn rounded-3xl">Add to Cart <img src={cart} alt="" /> </button>
-                        <button><img src={love} alt="" /></button>
+                        <button onClick={()=> handleWishList(product_id)}><img className={`${isDisabled? "" : "bg-gray-400 cursor-not-allowed btn"}`} src={love} alt="" /></button>
                     </div>
                 </div>
 

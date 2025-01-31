@@ -12,11 +12,15 @@ import ItemDetail from './Components/ItemDetail/ItemDetail.jsx';
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import Cart from './Components/Cart/Cart.jsx';
 import WishList from './Components/WishList/WishList.jsx';
+import { ToastContainer } from 'react-toastify';
+import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
+import Review from './Components/Review/Review.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -33,7 +37,8 @@ const router = createBrowserRouter([
           },
           {
             path: "wish",
-            element: <WishList></WishList>
+            element: <WishList></WishList>,
+            loader: ()=> fetch('/data.json')
           }
         ]
 
@@ -42,6 +47,10 @@ const router = createBrowserRouter([
         path: "items/:itemId",
         element: <ItemDetail></ItemDetail>,
         loader: ()=> fetch('/data.json')
+      },
+      {
+        path: "/review",
+        element: <Review></Review>
       }
     ]
   },
@@ -50,5 +59,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <ToastContainer />
   </StrictMode>,
 )

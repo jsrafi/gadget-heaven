@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co.com/G9WT81T/saka.jpg",
+      "ratings": 4.5,
+      "reviews": "Great product! Worth the price. Highly recommend.",
+      "name": "Shaka Chowdhuri"
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co.com/cXrpsYX/amruz.jpg",
+      "ratings": 3.8,
+      "reviews": "I bought the Microsoft Surface Laptop few months ago. Good performance but the battery could last longer.",
+      "name": "Dean Amruz"
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co.com/5Kb01R9/usuf.jpg",
+      "ratings": 5.0,
+      "reviews": "Excellent quality and very fast shipping!",
+      "name": "Gentle Man"
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co.com/Qvf40Mp/joy.jpg",
+      "ratings": 4.2,
+      "reviews": "Good value for money. The customer support was helpful too.",
+      "name": "Jogga Daku"
+    }
+  ]
+  

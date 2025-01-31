@@ -1,8 +1,13 @@
 import { NavLink, Outlet } from "react-router-dom";
 import './Dashboard.css'
+import { useEffect } from "react";
 
 
 const Dashboard = () => {
+    useEffect(()=>
+        {
+            document.title = "Dashboard | Gadget-Heaven"
+        },[])
     return (
         <div>
             <div className="flex flex-col gap-5 text-center justify-center items-center bg-[#9538E2] pt-10 pb-10">
