@@ -10,7 +10,7 @@ const DetailsReview = ({ review }) => {
                 <img
                     src={img}
                     alt=""
-                    className="rounded-xl h-64 w-96 object-cover" />
+                    className="rounded-xl h-52 w-96 object-cover" />
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">{name}</h2>
